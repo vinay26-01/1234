@@ -1,0 +1,10 @@
+num=int(input("enter number ="))
+n=int(input("enter no.0f digits - 2 ="))
+if num:
+    r=num%10 
+    num=num//10
+    q=num%pow(10,n)
+    i=num//pow(10,n) 
+    print(r,end="")
+    print(q,end="")
+    print(i)
